@@ -1,0 +1,11 @@
+C:\Users\katie\source\repos\passtime\passtime\bin\Debug\netcoreapp3.1\passtime.exe
+C:\Users\katie\source\repos\passtime\passtime\bin\Debug\netcoreapp3.1\passtime.deps.json
+C:\Users\katie\source\repos\passtime\passtime\bin\Debug\netcoreapp3.1\passtime.runtimeconfig.json
+C:\Users\katie\source\repos\passtime\passtime\bin\Debug\netcoreapp3.1\passtime.runtimeconfig.dev.json
+C:\Users\katie\source\repos\passtime\passtime\bin\Debug\netcoreapp3.1\passtime.dll
+C:\Users\katie\source\repos\passtime\passtime\bin\Debug\netcoreapp3.1\passtime.pdb
+C:\Users\katie\source\repos\passtime\passtime\obj\Debug\netcoreapp3.1\passtime.csprojAssemblyReference.cache
+C:\Users\katie\source\repos\passtime\passtime\obj\Debug\netcoreapp3.1\passtime.AssemblyInfoInputs.cache
+C:\Users\katie\source\repos\passtime\passtime\obj\Debug\netcoreapp3.1\passtime.AssemblyInfo.cs
+C:\Users\katie\source\repos\passtime\passtime\obj\Debug\netcoreapp3.1\passtime.dll
+C:\Users\katie\source\repos\passtime\passtime\obj\Debug\netcoreapp3.1\passtime.pdb
