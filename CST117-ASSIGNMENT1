@@ -1,0 +1,82 @@
+﻿using System;
+
+namespace CST117ASSIGNMENT1
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to PURE Calculator & Converter. Please enter an action to calculate");
+            Console.WriteLine("Enter 1 to multiply");
+            Console.WriteLine("Enter 2 to divide");
+            Console.WriteLine("Enter 3 to add");
+            Console.WriteLine("Enter 4 to subtract");
+            Console.WriteLine("Enter 5 to convert Temparture");
+
+            string userInput;
+            userInput = Console.ReadLine();
+            double innn = Convert.ToDouble(userInput);
+
+
+            switch (innn)
+            {
+                case 1:
+                    Console.WriteLine("MULTIPLICATION");
+                    Console.WriteLine("PLEASE ENTER 2 NUMBERS to multiply");
+                    double a = Convert.ToDouble(Console.ReadLine());
+                    double b = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(a * b);
+                    break;
+
+                case 2:
+                    Console.WriteLine("DIVISON");
+                    Console.WriteLine("PLEASE ENTER 2 NUMBERS to DIVIDE");
+                    double c = Convert.ToDouble(Console.ReadLine());
+                    double d = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(c / d);
+                    break;
+
+                case 3:
+                    Console.WriteLine("ADDITION");
+                    Console.WriteLine("PLEASE ENTER 2 NUMBERS to ADD");
+                    double e = Convert.ToDouble(Console.ReadLine());
+                    double f = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(e + f);
+                    break;
+
+                case 4:
+                    Console.WriteLine("SUBTRACTION");
+                    Console.WriteLine("PLEASE ENTER 2 NUMBERS to SUBTRACT");
+                    double g = Convert.ToDouble(Console.ReadLine());
+                    double h = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(g - h);
+                    break;
+
+                case 5:
+                    Console.WriteLine("Fahreinheit to Celsius");
+                    Console.WriteLine("Enter a degree in fahrenheit");
+                    string userInput2;
+                    userInput2 = Console.ReadLine();
+                    double k = Convert.ToDouble(userInput2);
+                    double celsius = (k - 32) * 5 / 9;
+                    Console.WriteLine("The degree is now in celsius" +
+                        celsius);
+                    Console.ReadLine();
+
+                    Console.WriteLine("Fahrenheit to Kelvin");
+                    Console.WriteLine("Enter a degree in fahrenheit");
+                    string userInput3;
+                    userInput3 = Console.ReadLine();
+                    double y = Convert.ToDouble(userInput3);
+                    double degree = (y - 32) * (5 / 9) + 273.15;
+                    Console.WriteLine("The degree is now in kelvin" +
+                        degree);
+                    Console.ReadLine();
+
+                    break;
+
+
+            }
+        }
+    }
+}
