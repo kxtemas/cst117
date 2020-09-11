@@ -1,0 +1,47 @@
+﻿using System;
+
+namespace Application
+{
+    class MainClass
+    {
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to 'Weight Converter'.");
+            Console.WriteLine("Enter 1 to convert from Earth to Mars");
+            Console.WriteLine("Enter 2 to Earth to Venus");
+
+            string userInput;
+            userInput = Console.ReadLine();
+            double innn = Convert.ToDouble(userInput);
+
+
+            switch (innn)
+            {
+                case 1:
+
+                    Console.WriteLine("Enter your current weight in lbs on Earth: ");
+                    string usert;
+                    usert = Console.ReadLine();
+                    double W = Convert.ToDouble(usert);
+                    double weight = (W / 9.81) * (3.711);
+
+                    Console.WriteLine("Your weight on mars would be:" + Math.Round(weight, 3));
+                    Console.ReadLine();
+                    break;
+
+                case 2:
+                    Console.WriteLine("Enter your current weight in lbs on Earth:");
+                    string user;
+                    user = Console.ReadLine();
+                    double w = Convert.ToDouble(user);
+                    double weigh = (w / 9.81) * (8.87);
+
+                    Console.WriteLine("Your weight on Venus would be: " + Math.Round(weigh, 3));
+                    Console.ReadLine();
+                    break;
+            }
+        }
+    }
+}
+
